@@ -392,14 +392,18 @@ body {
 }
 
 .imgContainer {
-    height:183px;
-    width: 183px;
-    float:left;
-    padding: 10px;
+    /*height:500px;
+    width: 500px;
+    float:left;*/
+    padding: 100px;
     position: relative;
      background-position: 50% 50%;
     background-repeat:   no-repeat;
     background-size:     cover;
+       min-width:700px;
+    margin-left:10px;
+    overflow:hidden;
+    background-color: rgba(255,255,255,.2);
 }
 
 .imgContainer p {
@@ -416,13 +420,13 @@ body {
     transition: padding .3s, font-size .3s, background-color .3s, box-shadow .4s, letter-spacing: 6s, color 3s;
 }
 
-.imgContainer:hover p {
+/*.imgContainer:hover p {
     padding:18px 0px;
     box-shadow: 0px 0px 100px 10px black inset;
     background-color: rgba(255,255,255,.2);
     font-size: 1.2em;
     letter-spacing: 3px;
-}
+}*/
 
 .container {
     width: 960px;
@@ -432,6 +436,15 @@ body {
 
 .portfolio {
         padding:0px 0px 0px 10px;
+}
+
+.description p {
+   min-width:700px;
+    margin-left:10px;
+    overflow:hidden;
+    background-color: rgba(255,255,255,.2);
+}
+
 
 /*.portfolio {
         padding:0px 87px;
