@@ -392,9 +392,9 @@ body {
 }
 
 .imgContainer {
-    /*height:500px;
+    height:500px;
     width: 500px;
-    float:left;*/
+    float:left;
     padding: 100px;
     position: relative;
      background-position: 50% 50%;
@@ -420,13 +420,14 @@ body {
     transition: padding .3s, font-size .3s, background-color .3s, box-shadow .4s, letter-spacing: 6s, color 3s;
 }
 
-/*.imgContainer:hover p {
+/*This makes the text box move back and forth
+*/.imgContainer:hover p {
     padding:18px 0px;
     box-shadow: 0px 0px 100px 10px black inset;
     background-color: rgba(255,255,255,.2);
     font-size: 1.2em;
     letter-spacing: 3px;
-}*/
+}
 
 .container {
     width: 960px;
@@ -446,18 +447,18 @@ body {
 }
 
 
-/*.portfolio {
+.portfolio {
         padding:0px 87px;
         overflow: auto;
     }
-*/
 
 
-/*.main, body .side {
+
+.main, body .side {
     box-shadow: none;
 }
 
 body:hover .main, body:hover .side {
     box-shadow: none;
     box-shadow: 0px 0px 15px 0px #ccc;
-}*/
+}
