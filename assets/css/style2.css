@@ -5,3 +5,14 @@
 .img-responsive {
 	width: 100%;
 }
+
+.container {
+	width: initial;
+}
+
+img{
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+
+
+}
